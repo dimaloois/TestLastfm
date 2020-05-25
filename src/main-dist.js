@@ -1,0 +1,1 @@
+import Vue from"vue";import App from"./App.vue";import vuetify from"../node_modules/vuetify";import lastfm from"./plugins/lastfm";import"./assets/styles/style.scss";import artist from"./vuex/artist";Vue.config.productionTip=!1,Vue.use(lastfm),new Vue({vuetify:vuetify,render:t=>t(App),artist:artist}).$mount("#app");
